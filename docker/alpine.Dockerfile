@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.16.7
 
 RUN apk update && apk add cmake git make g++ linux-headers openssl-dev
 
